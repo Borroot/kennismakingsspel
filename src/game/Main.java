@@ -22,9 +22,6 @@ public class Main extends Application {
             primaryStage.setScene(scene);
             primaryStage.setTitle("Kennismakingsspel!");
             primaryStage.show();
-            
-            GuiController c = fxmlLoader.getController();
-            new GameController(c);
         } catch (Exception ex) {
             System.out.println("The fxml file could not be opened, check if the fxml file is in the resources folder.");
             System.exit(1);
