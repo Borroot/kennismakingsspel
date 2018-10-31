@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game.GuiController">
+<AnchorPane prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="game.GuiController">
    <children>
       <SplitPane dividerPositions="0.8" orientation="VERTICAL" prefHeight="500.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
         <items>
@@ -31,7 +31,7 @@
                               <Insets />
                            </opaqueInsets>
                         </TextField>
-                        <Button mnemonicParsing="false" onAction="#numberOfPeopleChanged" text="Run">
+                        <Button mnemonicParsing="false" onAction="#numberOfPeopleChanged" text="Run / Reset">
                            <font>
                               <Font size="28.0" />
                            </font>
